@@ -147,6 +147,7 @@ img {
 	color: #046937;
 	font-size: 25px;
 	font-family: "proxima_nova_alt_rgbold";
+	cursor: pointer;
 }
 
 .button-1-holder {
