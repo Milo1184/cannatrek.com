@@ -79,6 +79,15 @@ img {
 	padding-top: 50px;
 	padding-bottom: 50px;
 	position: relative;
+	font-family: 'proxima_nova_rgregular';
+	font-size: 34px;
+	text-transform: none;
+}
+#form-message {
+	display: none;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 .close-btn {
 	width: 15px;
@@ -93,13 +102,12 @@ img {
 	text-indent: -1000px;
 	overflow: hidden;
 }
-.register-form form {
-	padding-top: 25px;
-}
 .register-form h2 {
 	font-size: 34px;
 	text-transform: none;
 	text-align: center;
+	margin-bottom: 26px;
+	font-family: "proxima_nova_alt_rgbold";
 }
 .register-form input {
 	background-color: #EAEAEA;

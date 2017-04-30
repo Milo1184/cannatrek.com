@@ -30,8 +30,8 @@
 				<div class="container">
 					<div class="register-form">
 						<a class="close-btn register-form-slide" href="#">Close</a>
-						<h2>Register your details here.</h2>
-						<form action="https://cannatrek.createsend.com/t/d/s/xujdrh/" method="post" id="subForm">
+						<form action="mailer.php" method="post" id="subForm">
+							<h2>Register your details here.</h2>
 							<input id="fieldbejdi" name="cm-f-bejdi" type="text" placeholder="First Name*" required />
 							<input id="fieldbejdd" name="cm-f-bejdd" type="text" placeholder="Last Name*" required />
 							<input id="fieldbejdt" name="cm-f-bejdt" type="text" placeholder="Postcode*" required />
@@ -44,6 +44,8 @@
 
 							<button type="submit">Submit</button>
 						</form>
+						
+						<div id="form-message"></div>
 					</div>
 					
 					<div class="content">
