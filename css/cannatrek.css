@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: "proxima_nova_alt_rgbold";
+	font-size: 50px;
+	line-height: 1.3;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+main {
+	display: table;
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../images/body-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.middle {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.inner {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.container {
+	width: 1005px;
+	margin: 0 auto;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.clear {
+	clear: both;
+}
+
+#logo {
+	display: block;
+	width: 80%;
+	cursor: default;
+	margin-bottom: 30px;
+}
+
+.button-1-holder {
+	width: 726px;
+	margin-top: 60px;
+}
+.button-1 {
+	font-size: 17px;
+	float: left;
+	border: 1px solid #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: block;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 200px;
+	text-align: center;
+}
+#first-btn {
+	margin-left: 0px;
+}
+#last-btn {
+	margin-right: 0px;
+}
+
+@media (max-width: 1050px) {
+	main {
+		width: 90%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.container {
+		width: 100%;
+	}
+	body {
+		font-size: 46px;
+	}
+}
+@media (max-width: 870px) {
+	body {
+		font-size: 40px;
+	}
+}
+@media (max-width: 800px) {
+	.button-1 {
+		width: 150px;
+		font-size: 13px;
+	}
+	.button-1-holder {
+		width: 576px;
+	}
+}
+@media (max-width: 768px) {
+	body {
+		font-size: 35px;
+	}
+}
+@media (max-width: 678px) {
+	main {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}
+@media (max-width: 640px) {
+	body {
+		font-size: 30px;
+	}
+}
+@media (max-width: 600px) {
+	.button-1-holder {
+		width: 450px;
+	}
+	.button-1 {
+		width: 125px;
+		font-size: 12px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+@media (max-width: 479px) {
+	.button-1-holder {
+		width: 100%;
+	}
+	.button-1 {
+		width: 250px;
+		font-size: 17px;
+		margin: 20px 0px;
+		float: none;
+	}
+	#last-btn {
+		margin-bottom: 0px;
+	}
+}
+@media (max-width: 380px) {
+	body {
+		font-size: 25px;
+	}
+	#logo {
+		width: 100%;
+	}
+}
+@media (max-width: 325px) {
+	body {
+		font-size: 22px;
+	}
+}
