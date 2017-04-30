@@ -2,6 +2,12 @@
 "use strict";
 
 $(document).ready(function() {
-	var height = $('main').height();
-	//$('.wrap').height(height);
+	
+	$('.register-form-slide').click(function() {
+		$('.content').slideToggle('fast');
+		$('.register-form').slideToggle('fast');
+		
+		return false;
+	});
+	
 });

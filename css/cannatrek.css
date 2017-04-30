@@ -69,6 +69,86 @@ img {
 	margin-bottom: 30px;
 }
 
+.register-form {
+	display: none;
+	background-color: #fff;
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: #2D2A2B;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	position: relative;
+}
+.close-btn {
+	width: 15px;
+	height: 15px;
+	background-image: url(../images/close.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	text-indent: -1000px;
+	overflow: hidden;
+}
+.register-form form {
+	padding-top: 25px;
+}
+.register-form h2 {
+	font-size: 34px;
+	text-transform: none;
+	text-align: center;
+}
+.register-form input {
+	background-color: #EAEAEA;
+	height: 54px;
+	line-height: 54px;
+	color: #2D2A2B;
+	border: none;
+	text-align: center;
+	width: 47%;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	float: left;
+	font-size: 15px;
+	margin-bottom: 20px;
+	font-family: 'proxima_nova_rgregular';
+}
+.register-form .checkbox {
+	margin: 0 auto;
+	width: 320px;
+	overflow: hidden;
+}
+.register-form input[type="checkbox"] {
+	width: 18px;
+	height: 18px;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.register-form label {
+	font-size: 11px;
+	line-height: 18px;
+	float: left;
+}
+.register-form button {
+	height: 66px;
+	line-height: 66px;
+	text-transform: uppercase;
+	width: 220px;
+	display: block;
+	margin: 0 auto;
+	background-color: transparent;
+	border: 3px solid #046937;
+	color: #046937;
+	font-size: 25px;
+	font-family: "proxima_nova_alt_rgbold";
+}
+
 .button-1-holder {
 	width: 726px;
 	margin-top: 60px;
