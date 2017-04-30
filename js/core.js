@@ -2,7 +2,6 @@
 "use strict";
 
 $(document).ready(function() {
-	
 	$('.register-form-slide').click(function() {
 		$('.content').slideToggle('fast');
 		$('.register-form').slideToggle('fast');
@@ -47,7 +46,7 @@ $(document).ready(function() {
 					setTimeout(function() {
 						$('.content').slideToggle('fast');
 						$('.register-form').slideToggle('fast');
-					}, 1000);
+					}, 3000);
 			})
 			.fail(function(data) {
 				// Set the message text.
@@ -59,5 +58,4 @@ $(document).ready(function() {
 			});
 		});
 	});
-	
 });
