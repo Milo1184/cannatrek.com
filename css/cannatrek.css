@@ -248,6 +248,10 @@ img {
 	#last-btn {
 		margin-bottom: 0px;
 	}
+	.register-form input {
+		float: none;
+		width: 97%;
+	}
 }
 @media (max-width: 380px) {
 	body {
