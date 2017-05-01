@@ -159,7 +159,7 @@ img {
 }
 
 .button-1-holder {
-	width: 726px;
+	width: 928px;
 	margin-top: 60px;
 }
 .button-1 {
@@ -199,13 +199,13 @@ img {
 		font-size: 40px;
 	}
 }
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
 	.button-1 {
 		width: 150px;
 		font-size: 13px;
 	}
 	.button-1-holder {
-		width: 576px;
+		width: 728px;
 	}
 }
 @media (max-width: 768px) {
@@ -224,15 +224,26 @@ img {
 		font-size: 30px;
 	}
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 	.button-1-holder {
-		width: 450px;
+		width: 568px;
 	}
 	.button-1 {
 		width: 125px;
 		font-size: 12px;
 		margin-left: 10px;
 		margin-right: 10px;
+	}
+}
+@media (max-width: 600px) {
+	.button-1-holder {
+		width: 100%;
+	}
+	.button-1 {
+		width: 94px;
+		font-size: 9px;
+		margin-left: 8px;
+		margin-right: 8px;
 	}
 }
 @media (max-width: 479px) {
